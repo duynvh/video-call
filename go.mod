@@ -1,17 +1,14 @@
-module github.com/duynvh/video-call
+module video-call
 
 go 1.19
 
-require (
-	github.com/gofiber/template v1.7.1
-	github.com/gofiber/websocket/v2 v2.1.0
-)
+require github.com/gofiber/websocket/v2 v2.1.0
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/fasthttp/websocket v1.5.0 // indirect
 	github.com/gofiber/fiber/v2 v2.38.1 // indirect
-	github.com/google/uuid v1.3.0
+	github.com/gofiber/template v1.7.1
 	github.com/klauspost/compress v1.15.0 // indirect
 	github.com/savsgio/gotils v0.0.0-20211223103454-d0aaa54c5899 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
